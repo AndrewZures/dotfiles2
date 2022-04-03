@@ -56,7 +56,6 @@ precmd () { vcs_info }
 PS1='%F{3}%3~ ${vcs_info_msg_0_}%f%# '
 
 # Aliases
-alias vim="mvim -v"
 alias ls="ls -lh"
 
 # git helper aliases

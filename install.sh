@@ -1,10 +1,12 @@
-#!/bin/sh
+#!/bin/bash
 
 zshrc() {
   echo "==========================================================="
-  echo "                  Import zsh files                             "
+  echo "                  Import dotfiles                          "
   echo "-----------------------------------------------------------"
   cat .zshenv > $HOME/.zshenv
+  source $HOME/.zshenv
+  cat .gitconfig > $HOME/.gitconfig
 }
 
 zshrc
