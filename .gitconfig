@@ -62,7 +62,7 @@
 	insteadOf = https://github.com/
 [github]
 	user = AndrewZures
-[credential]
-	helper = osxkeychain
+# [credential]
+# 	helper = osxkeychain
 [init]
 	defaultBranch = main
