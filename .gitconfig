@@ -32,3 +32,17 @@
 
   fml = !git aa && git reset --hard
   lg = "log --oneline --decorate --abbrev-commit --date=short"
+
+[push]
+    default = current   # pushes the branch with the same name
+    autoSetupRemote = true
+
+[pull]
+  rebase = true
+
+[rebase]
+  autoStash = true      # stash unstaged changes before rebase, restore after
+  updateRefs = true
+
+[advice]
+  skippedCherryPicks = false
