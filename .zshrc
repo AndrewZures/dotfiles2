@@ -38,7 +38,7 @@ setopt SHARE_HISTORY          # Share history across all open zsh sessions
 setopt EXTENDED_HISTORY       # Record timestamp + runtime for each command
 
 
-alias ls="ls -lsat"
+alias ls="ls -lsa"
 
 # Functions
 function title {
