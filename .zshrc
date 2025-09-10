@@ -44,3 +44,6 @@ alias ls="ls -lsa"
 function title {
   echo -ne "\033]0;"$*"\007"
 }
+
+# Map python to python3
+alias python='python3'
